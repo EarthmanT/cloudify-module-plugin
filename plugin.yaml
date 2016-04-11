@@ -1,0 +1,5 @@
+plugins:
+  module:
+    executor: central_deployment_agent
+    package_name: cloudify-module-plugin
+
