@@ -3,12 +3,14 @@ tosca_definitions_version: cloudify_dsl_1_2
 imports:
   - http://www.getcloudify.org/spec/cloudify/3.3/types.yaml
   - http://www.getcloudify.org/spec/fabric-plugin/1.3/plugin.yaml
+  - https://raw.githubusercontent.com/EarthmanT/cloudify-module-plugin/master/plugin.yaml
 
 plugins:
   module:
     executor: central_deployment_agent
     source: https://github.com/EarthmanT/cloudify-module-plugin/archive/master.zip
-    package_name: module_plugin
+    package_name: example-module-plugin
+    install: true
 
 node_templates:
   example_node_template:
