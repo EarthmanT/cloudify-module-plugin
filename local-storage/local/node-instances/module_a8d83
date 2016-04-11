@@ -1,0 +1,1 @@
+{"relationships": [{"target_name": "host", "type": "cloudify.relationships.contained_in", "target_id": "host_12773"}], "name": "module", "runtime_properties": {}, "state": "deleted", "node_id": "module", "version": 11, "host_id": "host_12773", "id": "module_a8d83"}
