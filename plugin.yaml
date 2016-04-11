@@ -1,5 +1,6 @@
 plugins:
   module:
     executor: central_deployment_agent
-    package_name: cloudify-module-plugin
+    source: https://github.com/EarthmanT/cloudify-module-plugin/archive/master.zip
+    package_name: example-module-plugin
 
